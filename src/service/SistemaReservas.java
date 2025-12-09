@@ -46,7 +46,7 @@ public class SistemaReservas {
     public int contarReservas() {
         return reservas.size();
     }
-    // Getter de la colección (si se necesita externo)
+    // Getter de la colección
     public ArrayList<Reserva> getReservas() {
         return reservas;
     }

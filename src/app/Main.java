@@ -25,7 +25,7 @@ public class Main {
         // Mostrar el total de reservas
         System.out.printf("Total de reservas: %d%n", sistema.contarReservas());
         System.out.println();
-        // Eliminar una reserva por ID usando try/catch para capturar errores
+        // Eliminar una reserva por ID usando try/catch para capturar posibles errores
         try {
             System.out.println("Intentando eliminar reserva con ID=2...");
             sistema.eliminarReserva(2); // eliminación existente
